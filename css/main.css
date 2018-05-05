@@ -97,13 +97,48 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    text-align: center;
+}
+
+.container {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    margin: 0 auto;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
+.logo {
+    display: block;
+    background: url(../img/logo.png) center center no-repeat;
+    background-size: contain;
+    width: 336px;
+    height: 376px;
+}
 
 
+.coming-soon {
+    background: url(../img/coming-soon.png) center center no-repeat;
+    background-size: contain;
+    width: 220px;
+    height: 24px;
 
+    margin-top: 50px;
+}
 
-
+.logo, .coming-soon {
+    max-width: 100%;
+    text-indent: -9000px;
+    overflow: hidden;
+}
 
 
 
